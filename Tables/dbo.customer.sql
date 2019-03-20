@@ -5,7 +5,8 @@ CREATE TABLE [dbo].[customer]
 [last_name] [varchar] (50) COLLATE Latin1_General_CI_AS NOT NULL,
 [age] [tinyint] NOT NULL,
 [zip_code] [varchar] (50) COLLATE Latin1_General_CI_AS NOT NULL,
-[type] [int] NULL
+[type] [int] NULL,
+[reputation] [int] NULL
 ) ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[customer] ADD CONSTRAINT [PK_customer] PRIMARY KEY CLUSTERED  ([customer_id]) ON [PRIMARY]
