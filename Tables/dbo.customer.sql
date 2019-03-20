@@ -5,7 +5,7 @@ CREATE TABLE [dbo].[customer]
 [last_name] [varchar] (50) COLLATE Latin1_General_CI_AS NOT NULL,
 [age] [tinyint] NOT NULL,
 [zip_code] [varchar] (50) COLLATE Latin1_General_CI_AS NOT NULL,
-[type] [int] NULL,
+[type] [varchar] (50) COLLATE Latin1_General_CI_AS NULL,
 [reputation] [int] NULL
 ) ON [PRIMARY]
 GO
